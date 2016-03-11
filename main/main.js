@@ -1,10 +1,10 @@
-
+"use strict";
 function splitNumber(numberStr){
   return numberStr.split('');
 }
 
 function getElement(numberArray,dictionary){
-  var charNumbers = [];
+  let charNumbers = [];
   numberArray.forEach(function(element){
     charNumbers.push(dictionary[parseInt(element)]);
   });
@@ -12,8 +12,8 @@ function getElement(numberArray,dictionary){
 }
 
 function printCharNumbers(charNumbers){
-  var outputChar = '';
-  for (var i = 0; i < 3; i++){
+  let outputChar = '';
+  for (let i = 0; i < 3; i++){
     charNumbers.forEach(function(number,index){
       outputChar += number[i];
       if (index != charNumbers.length-1){
@@ -27,9 +27,9 @@ function printCharNumbers(charNumbers){
 }
 
 function printLDCStr(input){
-  var fixture = require('../main/fixtures.js');
-  var numberArr = splitNumber(input);
-  var charArr = getElement(numberArr,fixture.loadDictionary());
+  let fixture = require('../main/fixtures.js');
+  let numberArr = splitNumber(input);
+  let charArr = getElement(numberArr,fixture.loadDictionary());
   printCharNumbers(charArr);
 }
 
