@@ -1,0 +1,26 @@
+{
+  "name": "hu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max-Hu/lcd-digits-node-Max-Hu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Max-Hu/lcd-digits-node-Max-Hu/issues"
+  },
+  "homepage": "https://github.com/Max-Hu/lcd-digits-node-Max-Hu#readme",
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "js-match": "^1.0.10"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
